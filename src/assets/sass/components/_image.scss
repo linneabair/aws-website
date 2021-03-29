@@ -9,8 +9,11 @@
 	.image {
 		border-radius: _size(border-radius);
 		border: 0;
+		//box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
 		display: inline-block;
 		position: relative;
+		height: 275px;
+    	overflow: hidden;
 
 		img {
 			border-radius: _size(border-radius);
@@ -58,3 +61,69 @@
 			}
 		}
 	}
+
+	#about-me-image {
+		margin-left: 5em;
+		min-height: 300px !important;
+		min-width: 300px !important;
+	}
+
+	.scroll-image {
+		background-position: top center;
+		background-repeat: no-repeat;
+		background-size: 100% auto!important;
+		height: 100%;
+		margin-left: auto!important;
+		margin-right: auto!important;
+		transition: background-position 1.5s ease-out 0.5s;
+	}
+
+	.scroll-image:hover {
+		background-position: bottom center!important;
+		transition: background-position 2s linear 0s;
+	}
+
+	#me {
+		background-image: url('../../assets/images/me4.jpg');
+		background-position: top center;
+		background-repeat: no-repeat;
+		background-size: 100% auto!important;
+		height: 100%;
+		transition: background-image 0.5s ease-in;
+	}
+
+	#me:hover {
+		background-image: url('../../assets/images/me2.jpg');
+	}
+
+	// #site-1 {
+	// 	background-image: url('../../assets/images/bdi1.png');
+	// }
+
+	// #site-2 {
+	// 	background-image: url('../../assets/images/cls1.png');
+	// }
+	
+	// #site-3 {
+	// 	background-image: url('../../assets/images/ford1.png');
+	// }
+
+	// #site-4 {
+	// 	background-image: url('../../assets/images/calwest1.png');
+	// }
+
+	// #site-5 {
+	// 	background-image: url('../../assets/images/css1.png');
+	// }
+
+	// #site-6 {
+	// 	background-image: url('../../assets/images/slottedweb1.png');
+	// }
+
+	// #site-7 {
+	// 	background-image: url('../../assets/images/boosters1.png');
+	// }
+
+	// #site-8 {
+	// 	background-image: url('../../assets/images/valley1.png');
+	// }

@@ -6,10 +6,7 @@ export default function Footer() {
       <div className="inner">
         <h2 className="major">Get in touch</h2>
         <p>
-          Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
-          Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
-          egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in
-          tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
+          Please reach out if you'd like to get in touch, ask questions, or have a project idea.
         </p>
         <form method="post" action="/#">
           <div className="fields">
@@ -38,7 +35,7 @@ export default function Footer() {
           <li className="fa-phone">{config.phone}</li>
 
           {config.socialLinks.map(social => {
-            const { icon, url } = social;
+            const { icon, url, name } = social;
             return (
               <li className={`${icon}`} key={url}>
                 <a href={url}>{url}</a>
@@ -47,7 +44,7 @@ export default function Footer() {
           })}
         </ul>
         <ul className="copyright">
-          <li>&copy; Solid State. All rights reserved.</li>
+          <li>&copy; 2021 Linnea Bair</li>
           <li>
             Design: <a href="http://html5up.net">HTML5 UP</a>
           </li>

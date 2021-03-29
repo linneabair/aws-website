@@ -42,7 +42,7 @@
 
 		&:hover {
 			border-bottom-color: transparent;
-			color: _palette(fg-bold) !important;
+			color: _palette(fg-bold);
 		}
 
 		&.special:not(.button) {
@@ -121,26 +121,31 @@
 			padding-bottom: 1em;
 			border-bottom: solid 2px _palette(border);
 		}
+
+		&#about-me-heading {
+			padding-bottom: 1em;
+			border-bottom: solid 2px _palette(border-light);
+		}
 	}
 
 	h2 {
-		font-size: 1.2em;
+		font-size: 1.5em;
 	}
 
 	h3 {
-		font-size: 0.9em;
+		font-size: 1.2em;
 	}
 
 	h4 {
-		font-size: 0.7em;
+		font-size: 1.0em;
 	}
 
 	h5 {
-		font-size: 0.7em;
+		font-size: 0.8em;
 	}
 
 	h6 {
-		font-size: 0.7em;
+		font-size: 0.6em;
 	}
 
 	@include breakpoint('<=small') {
@@ -216,4 +221,33 @@
 
 	.align-right {
 		text-align: right;
+	}
+
+	#about-me {
+		color:_palette(bg);
+
+		h2 {
+			color:_palette(bg);
+		}
+	}
+
+	#resume-button {
+		&.special:not(.button) {
+			&:before {
+				border: solid 2px _palette(bg);
+			}
+		}
+
+		
+		&:hover {
+			&:before {
+				background-color: _palette(#333);
+			}
+		}
+
+		&:active {
+			&:before {
+				background-color: _palette(#333);
+			}
+		}
 	}

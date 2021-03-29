@@ -1,8 +1,6 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import pic4 from '../assets/images/pic04.jpg';
-import pic5 from '../assets/images/pic05.jpg';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -52,7 +50,7 @@ const IndexPage = () => (
           <section className="features">
             <article>
               <a href="/#" className="image">
-                <img src={pic4} alt="" />
+                {/* <img src={pic4} alt="" /> */}
               </a>
               <h3 className="major">Sed feugiat lorem</h3>
               <p>
@@ -65,7 +63,7 @@ const IndexPage = () => (
             </article>
             <article>
               <a href="/#" className="image">
-                <img src={pic5} alt="" />
+                {/* <img src={pic5} alt="" /> */}
               </a>
               <h3 className="major">Nisl placerat</h3>
               <p>

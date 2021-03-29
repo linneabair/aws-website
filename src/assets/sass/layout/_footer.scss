@@ -56,6 +56,10 @@
         }
       }
     }
+
+    #message {
+      width: 100%!important;
+    }
   }
 
   @include breakpoint('<=large') {
