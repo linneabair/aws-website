@@ -31,7 +31,7 @@ module.exports = {
   phone: '(360) 609-3356',
   address: 'Vancouver, Washington, USA',
 
-  // sites: [
+   sites: [
   //   {
   //     name: "Bad Drug Interactions",
   //     description: "Bad Drug Interactions is an Android application that I created for my Senior Capstone Project at University of Portland. It was designed to help non-tech-savvy users check their medications for dangerous interactions.",
@@ -174,5 +174,5 @@ module.exports = {
   //       }
   //     ]
   //   }
-  // ]
+   ]
 };

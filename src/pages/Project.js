@@ -24,7 +24,7 @@ const ProjectPage = ({ title, text, pageArray }) => {
 
                 <section className="features">
 
-                    {pages.map(page => {
+                    {/* {pages.map(page => {
                         const { pageName, image, description } = page;
                         const style = {
                             backgroundImage: `url( ${image} )`
@@ -38,7 +38,7 @@ const ProjectPage = ({ title, text, pageArray }) => {
                                 <p> {description} </p>
                             </article>
                         );
-                    })}
+                    })} */}
                    
                 </section>
                 </div>
