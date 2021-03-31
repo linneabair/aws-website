@@ -37,7 +37,7 @@ const IndexPage = () => {
                 Currently, I am working at Catalyte, Inc. as a Developer 1 consultant.
                 Check out my resume and projects below!
               </p>
-              <a href="https://i.kym-cdn.com/entries/icons/facebook/000/028/021/work.jpg" target="_blank" id="resume-button" className="special">
+              <a href="" target="_blank" id="resume-button" className="special">
                 My resume
               </a>
             </div>
@@ -94,7 +94,7 @@ const IndexPage = () => {
               I use a multitude of web technologies including WordPress and React along with HTML, CSS, SCSS, and PHP.
             </p>
             <section className="features">
-              {sites.slice(0, 4).map(site => {
+              {/* {sites.slice(0, 4).map(site => {
                 const { name, description, image } = site;
                 const style = {
                   backgroundImage: `url( ${image} )`
@@ -133,11 +133,10 @@ const IndexPage = () => {
                       </article>
                     );
                   })
-                
-              }
+              } */}
               
               
-              {/* <article>
+              <article>
                 <a href="/#" className="image">
                   <div id="site-1" className="scroll-image"></div>
                 </a>
@@ -184,9 +183,9 @@ const IndexPage = () => {
                 <a href="/#" className="special">
                   Learn more
                 </a>
-              </article> */}
+              </article>
             
-              {/* {showProjects && 
+              {showProjects && 
                 <>
                   <article>
                     <a href="/#" className="image">
@@ -237,7 +236,7 @@ const IndexPage = () => {
                     </a>
                   </article>
                 </>
-              } */}
+              }
             </section>
             <ul className="actions">
               <li>
