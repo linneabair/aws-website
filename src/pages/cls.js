@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ProjectPage from './Project';
+import ProjectPage from '../components/Project';
 import image1 from '../assets/images/sites/cls/clogic1.png';
 import image2 from '../assets/images/sites/cls/clogic2.png';
 import image3 from '../assets/images/sites/cls/clogic3.png';
