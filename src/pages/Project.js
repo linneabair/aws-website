@@ -18,14 +18,14 @@ const ProjectPage = ({ title, text, pageArray }) => {
                 </div>
             </header>
 
-            <div className="wrapper">
+            <div className="wrapper alt">
                 <div className="inner">
                 <p>{description}</p>
 
                 <section className="features">
 
-                    {/* {pages.map(page => {
-                        const { pageName, image, description } = page;
+                    {pages.map(page => {
+                        const { pageName, image } = page;
                         const style = {
                             backgroundImage: `url( ${image} )`
                         }
@@ -35,10 +35,10 @@ const ProjectPage = ({ title, text, pageArray }) => {
                                     <div className="scroll-image" style={style}></div>
                                 </a>
                                 <h3 className="major">{pageName}</h3>
-                                <p> {description} </p>
+                                {/* <p> {description} </p> */}
                             </article>
                         );
-                    })} */}
+                    })}
                    
                 </section>
                 </div>

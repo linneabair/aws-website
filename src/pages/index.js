@@ -95,18 +95,18 @@ const IndexPage = () => {
             </p>
             <section className="features">
               {/* {sites.slice(0, 4).map(site => {
-                const { name, description, image } = site;
+                const { name, link, description, image } = site;
                 const style = {
                   backgroundImage: `url( ${image} )`
                 };
                 return (
                   <article>
-                    <a href="/#" className="image">
+                    <a href={link} className="image">
                       <div className="scroll-image" style={style}></div>
                     </a>
                     <h3 className="major">{name}</h3>
                     <p>{description}</p>
-                    <a href="/#" className="special">
+                    <a href={link} className="special">
                       Learn more
                     </a>
                   </article>
@@ -116,18 +116,18 @@ const IndexPage = () => {
               {showProjects && 
                 
                   sites.slice(4, sites.length).map(site => {
-                    const { name, description, image } = site;
+                    const { name, link, description, image } = site;
                     const style = {
                     backgroundImage: `url( ${image} )`
                     };
                     return (
                       <article>
-                        <a href="/#" className="image">
+                        <a href={link} className="image">
                           <div className="scroll-image" style={style}></div>
                         </a>
                         <h3 className="major">{name}</h3>
                         <p>{description}</p>
-                        <a href="/#" className="special">
+                        <a href={link} className="special">
                           Learn more
                         </a>
                       </article>
@@ -149,14 +149,14 @@ const IndexPage = () => {
                 </a>
               </article>
               <article>
-                <a href="/#" className="image">
+                <a href="/cls" className="image">
                   <div id="site-2" className="scroll-image"></div>
                 </a>
                 <h3 className="major">CLS, Inc.</h3>
                 <p>
                   Creative & Logical Solutions, Inc. is a web development company based in Los Angeles, California. They develop websites for a variety of schools and businesses.
                 </p>
-                <a href="/#" className="special">
+                <a href="/cls" className="special">
                   Learn more
                 </a>
               </article>
